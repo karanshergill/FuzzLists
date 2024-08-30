@@ -3,8 +3,8 @@
         {
             "table": "dns",
             "urls": [
-                "https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt",
                 "https://raw.githubusercontent.com/Tim1512/subdomain_scanner/master/wordlist/s-10000.txt",
+                "https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt",
                 "https://raw.githubusercontent.com/assetnote/commonspeak2-wordlists/master/subdomains/subdomains.txt",
                 "https://raw.githubusercontent.com/pentester-io/commonspeak/master/stackoverflow/output/compiled/stackoverflow_2017_10_22.urls_subdomains.txt",
                 "https://raw.githubusercontent.com/pentester-io/commonspeak/master/httparchive/output/compiled/2017_10_22_subdomains.txt",
@@ -12,7 +12,11 @@
                 "https://gist.githubusercontent.com/six2dez/a307a04a222fab5a57466c51e1569acf/raw",
                 "https://raw.githubusercontent.com/TheRook/subbrute/master/names.txt",
                 "https://raw.githubusercontent.com/n0kovo/n0kovo_subdomains/main/n0kovo_subdomains_huge.txt",
-                "https://paper.vulsee.com/Dictionary-Of-Pentesting/Subdomain/subnames-880199.txt"
+                "https://paper.vulsee.com/Dictionary-Of-Pentesting/Subdomain/subnames-880199.txt",
+                "https://wordlists-cdn.assetnote.io/data/manual/2m-subdomains.txt",
+                "https://raw.githubusercontent.com/trickest/wordlists/main/inventory/subdomains.txt",
+                "https://raw.githubusercontent.com/rbsec/dnscan/master/subdomains.txt",
+                "https://raw.githubusercontent.com/rbsec/dnscan/master/subdomains.txt"
             ]
         }
     ]

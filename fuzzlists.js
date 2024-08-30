@@ -47,9 +47,9 @@ async function insertData(entries) {
             const batch = entries.slice(i, i + batchSize);
             const values = batch.map((entry, index) => `($${index + 1})`).join(', ');
             const query = `
-                INSERT INTO dns (name) 
+                INSERT INTO megadns (label_val) 
                 VALUES ${values} 
-                ON CONFLICT (name) DO NOTHING;
+                ON CONFLICT (label_val) DO NOTHING;
             `;
             await client.query(query, batch);
             console.log(`Inserted batch ${Math.floor(i / batchSize) + 1} of ${totalBatches} containing ${batch.length} entries.`);
