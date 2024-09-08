@@ -9,9 +9,9 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@xata.io/client": "^0.0.0-next.v64f10283eb9a098c575590d3ea17600e350321c9",
     "axios": "^1.7.5",
     "dotenv": "^16.4.5",
+    "hono": "^4.5.9",
     "pg": "^8.12.0"
   }
 }
