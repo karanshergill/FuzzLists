@@ -4,12 +4,14 @@ To install dependencies:
 
 ```bash
 bun install
+or
+npm install
 ```
 
 To run:
 
 ```bash
 bun run fuzzlists.js
+or
+node fuzzlists.js
 ```
-
-This project was created using `bun init` in bun v1.1.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
