@@ -1,6 +1,6 @@
 {
   "name": "fuzzlists",
-  "module": "fuzzlists.js",
+  "module": "main.js",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
